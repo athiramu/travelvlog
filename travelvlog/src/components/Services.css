@@ -1,28 +1,70 @@
-.services-head{
+.services-head {
     font-family: 'Circular Std';
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
     letter-spacing: 0.2em;
     text-align: left;
-    color:#F85E9F;
-    ;
-  
-}
-.services-des{
-
-font-family: Circular Std;
-font-size: 40px;
-font-weight: 700;
-line-height: 50px;
-text-align: left;
-
+    color: #F85E9F;
 }
 
-.h5_services{
+.services-des {
+    font-family: 'Circular Std';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+}
+
+.h5_services {
     font-family: 'Circular Std';
     font-size: 28px;
     font-weight: 700;
     line-height: 33.6px;
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    .services {
+        position: relative;
+        top: 400px;
+    }
+    .card-services {
+        position: relative;
+        left: 300px; 
+    }
+    .services-head {
+        position: relative;
+        left: 50px;
+        bottom: 150px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .services-des {
+        position: relative;
+        right: 200px;
+        bottom: 150px;
+        font-size: 45px;
+        width: 700px;
+    }
+    .card_services {
+        width: 260px;
+        margin-block-end: 12px;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .services-head {
+        font-size: 26px;
+        text-align: center;
+    }
+    .services-des {
+        font-size: 36px;
+        text-align: center;
+    }
+    .card_services {
+        width: 100%;
+        margin-bottom: 12px;
+    }
 }

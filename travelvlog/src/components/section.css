@@ -74,31 +74,49 @@
 
 @media (max-width: 767px) {
     .travel_text {
-        font-size: 36px;
+        font-size: 55px;
         line-height: 43.2px;
+        margin-top: 10px;
     }
 
     .p-section1 {
 
 
-        font-size: 18px;
+     
+      
+        font-size: 25px;
         font-weight: 400;
         line-height: 28.8px;
         text-align: center;
-        margin-top: 10px;
+        position: relative;
+        left: 60px;
+        top: 15px;
 
     }
 
     .button {
         position: relative;
-        left: 170px;
-        top: 10px;
+        left: 220px;
+        top: 20px;
+        font-size: 20px;
+       
 
+    }
+    .explore_text {
+        font-size: 15px;
     }
 
     .section1_2 {
         height: 300px;
         width: 800px;
+        position: relative;
+        bottom: 400px;
+    }
+    .setion{
+        position: relative;
+        top: 750px;
+        text-align: center;
+        
     }
 
     .image {
@@ -136,6 +154,7 @@
         position: relative;
         left: 100px;
     }
+  
 }
 
 @media (max-width: 479px) {

@@ -10,7 +10,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 function TopDestinations() {
     return (
         <>
-            <div className='container mt-10 mb-10'>
+            <div className='container mt-10 mb-10 topdestination'>
             <div className='flex items-center justify-between mb-4'>
                     <div>
                         <h5 className='topdestination_head'>Top Destination</h5>

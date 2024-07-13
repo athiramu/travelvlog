@@ -80,3 +80,10 @@ color: white
 .FaArrowLeftLong{
     color: black;
 }
+@media (max-width: 767px) {
+   .topdestination{
+    position: relative;
+    top: 400px;
+   }
+  
+}

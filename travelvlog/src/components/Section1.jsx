@@ -10,8 +10,8 @@ function Section1() {
     return (
         <div className='px-5 mt-10'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                <div className='mt-20'>
-                    <div className='px-5 py-4 rounded-full bg-white w-48 flex items-center justify-center explore_text shadow-lg'>
+                <div className='mt-20 setion'>
+                    <div className='px-5 py-4 rounded-full bg-white w-48 flex items-center justify-center explore_text shadow-lg '>
                         Explore the world! <FaToolbox className='ml-1' />
                     </div>
                     <h1 className='text-lg font-semibold travel_text'>
