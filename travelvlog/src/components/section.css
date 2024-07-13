@@ -1,12 +1,11 @@
-/* Container and positioning */
+/* Base Styles */
 .section1 {
-    width: 100%; /* Make the width responsive */
-    max-width: 1184px; /* Set a maximum width */
-    margin: 0 auto; /* Center the section horizontally */
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto;
     padding: 64px 0;
 }
 
-/* Explore Text */
 .explore_text {
     font-family: 'Circular Std', sans-serif;
     font-size: 14px;
@@ -16,7 +15,6 @@
     color: #f85e9f;
 }
 
-/* Travel Text */
 .travel_text {
     font-family: 'Circular Std', sans-serif;
     font-size: 69px;
@@ -29,7 +27,6 @@
     color: #f85e9f;
 }
 
-/* Section Paragraph */
 .p-section1 {
     color: #19182580;
     font-family: 'Inter', sans-serif;
@@ -39,12 +36,10 @@
     text-align: left;
 }
 
-/* Play Circle Icon */
 .playcircle {
     color: #5D50C6;
 }
 
-/* Section Background */
 .section1_2 {
     background-image: url('../images/world.png');
     background-repeat: no-repeat;
@@ -52,45 +47,109 @@
     height: 200px;
 }
 
-/* Section 2 */
 .section2 {
     padding: 64px 0;
 }
 
-/* Location */
 .location {
     color: yellow;
 }
 
 /* Responsive Styles */
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
     .travel_text {
-        font-size: 48px; /* Reduce font size on medium screens */
+        font-size: 48px;
         line-height: 57.6px;
     }
 
     .p-section1 {
-        font-size: 16px; /* Adjust paragraph font size */
+        font-size: 16px;
         line-height: 24px;
     }
 
     .section1_2 {
-        height: 150px; /* Adjust background image height */
+        height: 150px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .travel_text {
-        font-size: 36px; /* Further reduce font size on small screens */
+        font-size: 36px;
         line-height: 43.2px;
     }
 
     .p-section1 {
-        font-size: 14px; /* Further adjust paragraph font size */
-        line-height: 21px;
+
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .button {
+        position: relative;
+        left: 170px;
+        top: 10px;
+
     }
 
     .section1_2 {
-        height: 100px; /* Further adjust background image height */
+        height: 300px;
+        width: 800px;
+    }
+
+    .image {
+        width: 400px;
+        height: 350px;
+        gap: 0px;
+        border-radius: 32px 0px 0px 0px;
+        opacity: 0px;
+
+        position: relative;
+        top: 30px;
+        left: 60px;
+    }
+
+    .image3 {
+
+        height: 300px;
+        width: 300px;
+        position: relative;
+        left: 350px;
+        bottom: 700px;
+    }
+
+    .explore_text {
+        position: relative;
+        left: 250px;
+    }
+
+    .travel_text {
+        position: relative;
+        left: 100px;
+    }
+
+    .ppp {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media (max-width: 479px) {
+    .travel_text {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .p-section1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .section1_2 {
+        height: 80px;
     }
 }
