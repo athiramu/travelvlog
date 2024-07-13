@@ -19,7 +19,7 @@ function Navbar() {
                 </div>
 
                 <div className='flex items-center '>
-                    <img src={logo} alt='logo' className='h-16 w-16' />
+                    <img src={logo} alt='logo' className='h-12 w-12' />
                     <h1 className='ml-2 text-xl font-bold'>Travlog</h1>
                 </div>
                 <nav className=' hidden md:flex justify-center space-x-5 w-full gap-x-[64px] '>

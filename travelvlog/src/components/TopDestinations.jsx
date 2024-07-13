@@ -4,13 +4,29 @@ import carousel1 from '../images/carousel1.png'
 import carousel2 from '../images/caarousel2.png'
 import carousel3 from '../images/carousel3.png'
 import { FaStar } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 function TopDestinations() {
     return (
         <>
-            <div className='container mt-10'>
-                <h5 className='topdestination_head'>Top Destination</h5>
-                <h3 className='topdestination_head2'>Explore top destinations</h3>
+            <div className='container mt-10 mb-10'>
+            <div className='flex items-center justify-between mb-4'>
+                    <div>
+                        <h5 className='topdestination_head'>Top Destination</h5>
+                        <h3 className='topdestination_head2'>Explore top destinations</h3>
+                    </div>
+                    <div className='rightarrow-carousel flex space-x-4'>
+                        <div className='w-16 h-16 border rounded-full flex items-center justify-center'>
+                            <FaArrowLeftLong className='FaArrowLeftLong' />
+                        </div>
+                        <div className='w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center'>
+                            <FaArrowRight className='FaArrowRight' />
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-20'>
                     <div className='rounded-lg shadow-lg overflow-hidden'>

@@ -1,67 +1,96 @@
-.section1{
-    
-    width: '1184px';
-  
-    top: '113px';
-    left: '128px';
-    padding: '64px 0';
- 
+/* Container and positioning */
+.section1 {
+    width: 100%; /* Make the width responsive */
+    max-width: 1184px; /* Set a maximum width */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 64px 0;
 }
 
-.explore_text{
-    font-family: 'Circular Std';
-    font-size: '14px';
+/* Explore Text */
+.explore_text {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 14px;
     font-weight: 700;
-    line-height: '16.8px';
-    text-align: 'left';
+    line-height: 16.8px;
+    text-align: left;
     color: #f85e9f;
 }
-.travel_text{
-    
-    font-family: Circular Std;
+
+/* Travel Text */
+.travel_text {
+    font-family: 'Circular Std', sans-serif;
     font-size: 69px;
     font-weight: 700;
     line-height: 82.8px;
     text-align: left;
-     
 }
-.span_texttop{
+
+.span_texttop {
     color: #f85e9f;
 }
 
-.p-section1{
-  color: #19182580;
-    
-font-family:Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 28.8px;
-text-align: left;
-
-}
-.playcircle{
-    color:  #5D50C6;
-    ;
+/* Section Paragraph */
+.p-section1 {
+    color: #19182580;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
 }
 
+/* Play Circle Icon */
+.playcircle {
+    color: #5D50C6;
+}
+
+/* Section Background */
 .section1_2 {
     background-image: url('../images/world.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 200px;
-  
-    
-   
 }
 
-.section2{
-   
-  
-    top: '113px';
-    left: '128px';
-    padding: '64px 0';
+/* Section 2 */
+.section2 {
+    padding: 64px 0;
 }
 
-.location{
+/* Location */
+.location {
     color: yellow;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .travel_text {
+        font-size: 48px; /* Reduce font size on medium screens */
+        line-height: 57.6px;
+    }
+
+    .p-section1 {
+        font-size: 16px; /* Adjust paragraph font size */
+        line-height: 24px;
+    }
+
+    .section1_2 {
+        height: 150px; /* Adjust background image height */
+    }
+}
+
+@media (max-width: 768px) {
+    .travel_text {
+        font-size: 36px; /* Further reduce font size on small screens */
+        line-height: 43.2px;
+    }
+
+    .p-section1 {
+        font-size: 14px; /* Further adjust paragraph font size */
+        line-height: 21px;
+    }
+
+    .section1_2 {
+        height: 100px; /* Further adjust background image height */
+    }
 }

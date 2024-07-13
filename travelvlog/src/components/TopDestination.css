@@ -64,3 +64,19 @@ text-align: left;
 color:  #FF5722;
 
 }
+
+.rightarrow-carousel{
+    
+    width: Fixed (1,184px)px;
+height: Hug (867px)px;
+top: 1685px;
+left: 128px;
+padding: 64px 0px 64px 0px;
+gap: 64px;
+opacity: 0px;
+color: white
+;
+}
+.FaArrowLeftLong{
+    color: black;
+}
