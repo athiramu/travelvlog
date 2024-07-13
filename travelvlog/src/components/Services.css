@@ -18,3 +18,11 @@ line-height: 50px;
 text-align: left;
 
 }
+
+.h5_services{
+    font-family: 'Circular Std';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+}

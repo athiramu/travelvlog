@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Section1 from '../components/Section1'
 import SectionCmpany from '../components/SectionCmpany'
 import Services from '../components/Services'
+import TopDestinations from '../components/TopDestinations'
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
     <Section1/>
     <SectionCmpany/>
     <Services/>
+    <TopDestinations/>
     </div>
     </>
   )

@@ -9,7 +9,7 @@ import './Sectioncmpany.css'
 function SectionCmpany() {
   return (
     <>
-      <div className='grid grid-cols-5 gap-4 company_group mx-auto mt-20 fixed-width  py-16   flex justify-center'>
+      <div className='grid grid-cols-5 gap-4 company_group mx-auto mt-20 fixed-width  py-16   justify-center'>
         <img src={img1} alt="Image 1" className='w-40 h-auto mt-1'/>
         <img src={img2} alt="Image 2" className='w-32 h-auto'/>
         <img src={img3} alt="Image 3" className='w-40 h-auto mt-1 '/>
