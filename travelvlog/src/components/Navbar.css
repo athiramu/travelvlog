@@ -1,0 +1,44 @@
+.logo_title {
+    font-family: Circular Std;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Circular Std;
+}
+
+/* Navbar.css */
+.nav-link {
+    font-family: Circular Std;
+    color: #b2beb5;
+
+}
+
+.nav-link-home {
+    color: black;
+    font-family: Circular Std;
+}
+
+.btn {
+    background: #5D50C6;
+    color: white;
+    font-family: Circular Std;
+}
+
+.login {
+
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+
+
+}

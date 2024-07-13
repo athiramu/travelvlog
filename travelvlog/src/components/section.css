@@ -1,0 +1,67 @@
+.section1{
+    
+    width: '1184px';
+  
+    top: '113px';
+    left: '128px';
+    padding: '64px 0';
+ 
+}
+
+.explore_text{
+    font-family: 'Circular Std';
+    font-size: '14px';
+    font-weight: 700;
+    line-height: '16.8px';
+    text-align: 'left';
+    color: #f85e9f;
+}
+.travel_text{
+    
+    font-family: Circular Std;
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 82.8px;
+    text-align: left;
+     
+}
+.span_texttop{
+    color: #f85e9f;
+}
+
+.p-section1{
+  color: #19182580;
+    
+font-family:Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+
+}
+.playcircle{
+    color:  #5D50C6;
+    ;
+}
+
+.section1_2 {
+    background-image: url('../images/world.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 200px;
+  
+    
+   
+}
+
+.section2{
+   
+  
+    top: '113px';
+    left: '128px';
+    padding: '64px 0';
+}
+
+.location{
+    color: yellow;
+}
