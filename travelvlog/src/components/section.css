@@ -159,16 +159,24 @@
 
 @media (max-width: 479px) {
     .travel_text {
-        font-size: 28px;
+        font-size: 38px;
         line-height: 33.6px;
+        
     }
 
     .p-section1 {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 18px;
     }
 
     .section1_2 {
-        height: 80px;
+        height: 300px;
+    }
+    .explore_text{
+        font-size: 20px;
+        width:280px ;
+        margin-top: 50px;
     }
 }
+
+

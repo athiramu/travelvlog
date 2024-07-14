@@ -14,9 +14,14 @@ function Section1() {
                     <div className='px-5 py-4 rounded-full bg-white w-48 flex items-center justify-center explore_text shadow-lg '>
                         Explore the world! <FaToolbox className='ml-1' />
                     </div>
-                    <h1 className='text-lg font-semibold travel_text'>
-                        Travel <span className='span_texttop'>top destination <br /></span> <p className='ppp'>of the world</p>
-                    </h1>
+                    <h1 className='text-base md:text-lg lg:text-xl font-semibold travel_text'>
+    Travel 
+    <span className='block md:inline span_texttop'>
+        top destination <br className='md:hidden' />
+    </span> 
+    <p className='text-sm md:text-base lg:text-lg ppp'>of the world</p>
+</h1>
+
                     <p className='p-section1 '>
                         We always make our customer happy by providing
                         as many choices as possible

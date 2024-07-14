@@ -12,10 +12,11 @@ function TopDestinations() {
         <>
             <div className='container mt-10 mb-10 topdestination'>
                 <div className='flex items-center justify-between mb-4'>
-                    <div>
-                        <h5 className='topdestination_head'>Top Destination</h5>
-                        <h3 className='topdestination_head2'>Explore top destinations</h3>
-                    </div>
+                <div className='topdestination md:text-center'>
+    <h5 className='topdestination_head'>Top Destination</h5>
+    <h3 className='topdestination_head2'>Explore top destinations</h3>
+</div>
+
                     <div className='rightarrow-carousel flex space-x-4'>
                         <div className='w-12 h-12 md:w-16 md:h-16 border rounded-full flex items-center justify-center'>
                             <FaArrowLeftLong className='FaArrowLeftLong' />

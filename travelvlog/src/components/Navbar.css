@@ -54,6 +54,40 @@
     
 }
 @media (min-width: 320px) and (max-width: 480px) {
+    .nav-link{
+        font-size: 30px;
+    }
     
+.nav-link-home {
+    font-size: 30px;
+}
+.login{
+    font-size: 30px;
+}
+.btn{
+    font-size: 30px;
+}
+.small{
+    position: relative;
+    left: 250px;
+}
+.menu{
+    position: relative;
+    left: 700px;
+    width: 200px;
+}
+.travel{
+    position: relative;
+    right: 60px;
+    bottom: 200px;
+   
+}
+.logo_title {
+    font-size: 50px;
+}
+.navbar{
+    width: 800px;
+    
+}
 }
 
