@@ -46,10 +46,13 @@
         bottom: 150px;
         font-size: 45px;
         width: 700px;
+      
     }
     .card_services {
-        width: 260px;
-        margin-block-end: 12px;
+       margin-top: 80px;
+    width: 250px;
+    position: relative;
+    left: 10px;
     }
   
 }
@@ -66,5 +69,6 @@
     .card_services {
         width: 100%;
         margin-bottom: 12px;
+    
     }
 }

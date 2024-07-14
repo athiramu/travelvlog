@@ -6,7 +6,7 @@ import './Travelpoint.css'
 function TravelPoint() {
   return (
     <>
-      <div className='container mx-auto mt-10'>
+      <div className='container mx-auto mt-10 travel'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
           <div className='bg-white flex justify-start'>
             <img src={travelpoint} className='travepoint_pic' />

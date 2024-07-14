@@ -11,24 +11,22 @@ function TopDestinations() {
     return (
         <>
             <div className='container mt-10 mb-10 topdestination'>
-            <div className='flex items-center justify-between mb-4'>
+                <div className='flex items-center justify-between mb-4'>
                     <div>
                         <h5 className='topdestination_head'>Top Destination</h5>
                         <h3 className='topdestination_head2'>Explore top destinations</h3>
                     </div>
                     <div className='rightarrow-carousel flex space-x-4'>
-                        <div className='w-16 h-16 border rounded-full flex items-center justify-center'>
+                        <div className='w-12 h-12 md:w-16 md:h-16 border rounded-full flex items-center justify-center'>
                             <FaArrowLeftLong className='FaArrowLeftLong' />
                         </div>
-                        <div className='w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center'>
+                        <div className='w-12 h-12 md:w-16 md:h-16 bg-blue-500 rounded-full flex items-center justify-center'>
                             <FaArrowRight className='FaArrowRight' />
                         </div>
                     </div>
                 </div>
 
-
-
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-20'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20'>
                     <div className='rounded-lg shadow-lg overflow-hidden'>
                         <img src={carousel1} alt='carouselimg' className='w-full' />
                         <div className='bg-white p-5'>

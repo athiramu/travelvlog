@@ -46,3 +46,10 @@ line-height: 28.8px;
 text-align: left;
 
 }
+
+@media (max-width: 767px) {
+   .travel{
+    margin-top: 400px;
+   }
+  
+}
